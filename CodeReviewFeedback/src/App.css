@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box !important;
+}
+.App{
+  margin: auto 40%;
+}
+.app-header {
+    background: black !important;
+    display: flex !important;
+}
+
+.w-mx-1200 {
+  max-width: 1200px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 3px 10px 0 var(--card-shadow-color);
+    transition: box-shadow 0.25s cubic-bezier(0.32, 0.01, 0, 1);
+    margin: var(--card-margin-gutter);
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+}
+
+.w-300 {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+.py-10{
+  margin: 5px;
+}
+.upvote{
+  background: greenyellow;
+}
+.downvote{
+  background: #a93c32;
+}
